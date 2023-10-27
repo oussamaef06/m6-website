@@ -1,0 +1,50 @@
+type de bac can be able to select PRODUCTIQUE (PROD) :
+2ème Année Bac Sciences et Technologies Électriques
+2ème Année Bac Sciences et Technologies Mécaniques
+2ème Année Bac Pro Productique Mécanique
+2ème Année Bac Pro Construction Aeronautique
+2ème Année Bac Sciences Mathématiques A
+2ème Année Bac Sciences Mathématiques A - Option Français
+2ème Année Bac Sciences Mathématiques B - Option Français
+2ème Année Bac Sciences Mathématiques B
+2ème Année Bac Sciences Physiques
+2ème Année Bac Sciences Physiques - Option Français
+
+type de bac can be able to select SYSTEMES ELECTRONIQUES (SE) :
+2ème Année Bac Sciences et Technologies Électriques
+2ème Année Bac Pro Systèmes Electroniques et Numériques
+2ème Année Bac Sciences Mathématiques A
+2ème Année Bac Sciences Mathématiques A - Option Français
+2ème Année Bac Sciences Mathématiques B - Option Français
+2ème Année Bac Sciences Mathématiques B
+2ème Année Bac Sciences Physiques
+2ème Année Bac Sciences Physiques - Option Français
+
+type de bac can be able to select Multimédia et Conception Web (MCW):
+2ème Année Bac Sciences et Technologies Électriques
+2ème Année Bac Sciences et Technologies Mécaniques
+2ème Année Bac Sciences Mathématiques A
+2ème Année Bac Sciences Mathématiques A - Option Français
+2ème Année Bac Sciences Mathématiques B - Option Français
+2ème Année Bac Sciences Mathématiques B
+2ème Année Bac Sciences Physiques
+2ème Année Bac Sciences Physiques - Option Français
+2ème Année Bac Sciences de la Vie et de la Terre - Option Français
+2ème Année Bac Sciences de la Vie et de la Terre
+2ème Année Bac Sciences Agronomiques
+
+type de bac can be able to select Comptabilité et Gestion (CG) :
+2ème Année Bac Sciences Économiques
+2ème Année Bac Sciences de Gestion Comptable
+2ème Année Bac Pro Commerce
+2ème Année Bac Pro Comptabilité
+2ème Année Bac Pro Logistique
+2ème Année Bac Sciences Mathématiques A
+2ème Année Bac Sciences Mathématiques A - Option Français
+2ème Année Bac Sciences Mathématiques B - Option Français
+2ème Année Bac Sciences Mathématiques B
+2ème Année Bac Sciences Physiques
+2ème Année Bac Sciences Physiques - Option Français
+2ème Année Bac Sciences de la Vie et de la Terre - Option Français
+2ème Année Bac Sciences de la Vie et de la Terre
+2ème Année Bac Sciences Agronomiques

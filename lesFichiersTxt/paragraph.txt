@@ -1,0 +1,230 @@
+Les candidats dont les noms figurent sur ces listes devront déposer leurs dossiers de candidature électroniquement sur ce site depuis la Rubrique  Candidature.<br>
+                            Dates de dépôt du dossier électronique : du 16/09/2022  au  19/09/2022  à 14 h. <br>
+                            Les résultats des candidats admis définitivement seront affichés sur ce même site (btsm6.site) le lundi 19/09/2022 à partir de 20h
+
+
+
+
+<body>
+    <?php include 'header.php'; ?>
+    <section class="page-section" id="contact">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6 text-center">
+                    <h2 class="text-black mt-0" name="titreF">
+                        <?php echo $titreF; ?>
+                    </h2>
+                    <hr class="divider" />
+                    <p class="text-muted mb-5">Dépôt de candidature pour l'accès en 1ère année du BTS au Centre des BTS Lycée Mohammed VI Marrakech. Une adresse mail Gmail est nécessaire pour pouvoir envoyer les fichiers joints.</p>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                <div class="col-lg-6">
+                    <form id="contactForm">
+                        <!-- Code Massar input-->
+                        <div class="form-floating mb-3 mt-3">
+                            <input class="form-control" id="codeInput" type="text" data-sb-validations="required" />
+                            <label for="codeInput">Code Massar</label>
+                        </div>
+                        <!-- Prénom input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="firstNameInput" type="text" readonly />
+                            <label for="firstNameInput">Prénom</label>
+                        </div>
+                        <!-- Nom input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="lastNameInput" type="text" readonly />
+                            <label for="lastNameInput">Nom</label>
+                        </div>
+                        <!-- Date naissance input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="birthdateInput" type="text" readonly />
+                            <label for="birthdateInput">Date de naissance</label>
+                        </div>
+                        <!-- Note de bac input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="bacNoteInput" type="text" readonly />
+                            <label for="bacNoteInput">Note de bac</label>
+                        </div>
+                        <!-- Direction provinciale input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="directionInput" type="text" readonly />
+                            <label for="directionInput">Direction provinciale</label>
+                        </div>
+                        <!-- Academie input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="academieInput" type="text" readonly />
+                            <label for="academieInput">Académie</label>
+                        </div>
+                        <!-- Type de bac input-->
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="bacTypeInput" type="text" readonly />
+                            <label for="bacTypeInput">Type de bac</label>
+                        </div>
+                        <!-- Submit Button-->
+                        <div class="d-grid">
+                            <button class="btn btn-primary btn-xl mb-3" id="submitButton" type="submit">Remplir</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+                <div class="col-lg-6">
+                    <form id="contactForm">
+                        <!-- Filière demandée - 1er Choix-->
+                        <p class="text-primary">Filière demandée - 1<sup>ère</sup> Choix</p>
+                        <div class="text-right">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    MCW (Multimédia et Conception Web)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    CG (Comptabilité et Gestion)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault3">
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                    SE (Système Electronique)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault4">
+                                <label class="form-check-label" for="flexRadioDefault4">
+                                    PROD (Productique)
+                                </label>
+                            </div>
+                        </div>
+                        <!-- Filière demandée - 2eme Choix-->
+                        <p class="text-primary">Filière demandée - 2<sup>ème</sup> Choix</p>
+                        <div class="text-right">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault5">
+                                <label class="form-check-label" for="flexRadioDefault5">
+                                    MCW (Multimédia et Conception Web)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault6" checked>
+                                <label class="form-check-label" for="flexRadioDefault6">
+                                    CG (Comptabilité et Gestion)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault7">
+                                <label class="form-check-label" for="flexRadioDefault7">
+                                    SE (Système Electronique)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault8">
+                                <label class="form-check-label" for="flexRadioDefault8">
+                                    PROD (Productique)
+                                </label>
+                            </div>
+                        </div>
+                        <!-- Filière demandée - 3eme Choix-->
+                        <p class="text-primary">Filière demandée - 3<sup>ème</sup> Choix</p>
+                        <div class="text-right">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault9">
+                                <label class="form-check-label" for="flexRadioDefault9">
+                                    MCW (Multimédia et Conception Web)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault10" checked>
+                                <label class="form-check-label" for="flexRadioDefault10">
+                                    CG (Comptabilité et Gestion)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault11">
+                                <label class="form-check-label" for="flexRadioDefault11">
+                                    SE (Système Electronique)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault3" id="flexRadioDefault12">
+                                <label class="form-check-label" for="flexRadioDefault12">
+                                    PROD (Productique)
+                                </label>
+                            </div>
+                        </div>
+                        <!-- Filière demandée - 4eme Choix-->
+                        <p class="text-primary">Filière demandée - 4<sup>ème</sup> Choix</p>
+                        <div class="text-right">
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault13">
+                                <label class="form-check-label" for="flexRadioDefault13">
+                                    MCW (Multimédia et Conception Web)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault14" checked>
+                                <label class="form-check-label" for="flexRadioDefault14">
+                                    CG (Comptabilité et Gestion)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault15">
+                                <label class="form-check-label" for="flexRadioDefault15">
+                                    SE (Système Electronique)
+                                </label>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault4" id="flexRadioDefault16">
+                                <label class="form-check-label" for="flexRadioDefault16">
+                                    PROD (Productique)
+                                </label>
+                            </div>
+                        </div>
+                        <!-- Copie de Bac input-->
+                        <p class="text-primary">Copie de Bac<br> Copie (légalisée) du Baccalauréat. Fichier au format pdf ou jpg ne dépassant pas 1 Mo et lisible</p>
+                        <div class="mb-3 filiere">
+                            <label for="formFileBac" class="form-label"></label>
+                            <input class="form-control" type="file" id="formFileBac">
+                        </div>
+                        <!-- Copie de Relevé de notes input-->
+                        <p class="text-primary">Copie de Relevé de notes<br> Copie (légalisée) du Baccalauréat. Fichier au format pdf ou jpg ne dépassant pas 1 Mo et lisible</p>
+                        <div class="mb-3 filiere">
+                            <label for="formFileReleve" class="form-label"></label>
+                            <input class="form-control" type="file" id="formFileReleve">
+                        </div>
+                        <!-- Copie de CIN input-->
+                        <p class="text-primary">Copie de CIN<br> Copie (légalisée) du Baccalauréat. Fichier au format pdf ou jpg ne dépassant pas 1 Mo et lisible</p>
+                        <div class="mb-3 filiere">
+                            <label for="formFileCIN" class="form-label"></label>
+                            <input class="form-control" type="file" id="formFileCIN">
+                        </div>
+                        <!-- Copie Fiche de Candidature input-->
+                        <p class="text-primary">Copie Fiche de Candidature<br> Copie (légalisée) du Baccalauréat. Fichier au format pdf ou jpg ne dépassant pas 1 Mo et lisible</p>
+                        <div class="mb-3 filiere">
+                            <label for="formFileCandidature" class="form-label"></label>
+                            <input class="form-control" type="file" id="formFileCandidature">
+                        </div>
+                        <!-- Message input-->
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                            <label for="message">Message</label>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                        </div>
+                        <!-- Submit Button-->
+                        <div class="d-grid">
+                            <button class="btn btn-primary btn-xl mb-3" id="submitButton" type="submit">Enregistrer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <?php include 'footer.php'; ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
